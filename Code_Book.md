@@ -4,14 +4,14 @@ This file describes what the run_analysis.R script does.
 2. Checks whether the folder "UCI HAR Dataset" exists, if the folder 
 does not exist a file will be downloaded under the name "UCI HAR Dataset.zip"
 3. Then following txt files will be loaded into R:
-x_test
+(x_test
 y_test
 subject_test
 x_train
 y_train
 subject_train
 features
-activity_labels
+activity_labels)
 4. Check the dimensions of the files loaded onto R
 5. Binding the appropriate datasets together.
 6. Labelling the datasets' headers. Activity_lables used to label ActivityID which
