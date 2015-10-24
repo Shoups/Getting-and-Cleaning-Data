@@ -56,7 +56,7 @@ names(Raw)<-gsub("\\(|\\)","",features$V2[Features_inc])
 
 #Complete data set made
 Alldata<-cbind(subjectID,Raw,Activity2)
-write.table(Alldata,"merged_Alldata")
+write.table(Alldata,"merged_Alldata.txt")
 
 #Calculating mean and SD
 library(data.table)
