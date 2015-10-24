@@ -1,9 +1,9 @@
 This file describes what the run_analysis.R script does.
 
-1.First set your working directory
-2.Checks whether the folder "UCI HAR Dataset" exists, if the folder 
+1. First set your working directory
+2. Checks whether the folder "UCI HAR Dataset" exists, if the folder 
 does not exist a file will be downloaded under the name "UCI HAR Dataset.zip"
-3.Then following txt files will be loaded into R:
+3. Then following txt files will be loaded into R:
 
 x_test
 y_test
