@@ -12,5 +12,5 @@ the location via the code "setwd()"
 "merged_Alldata.txt"
 "MeanSD_Tidy_Data.txt"
 
-5. Finally, use data <- read.table("MeanSD_Tidy_Data.txt") command in R to read the file. 
+55.Finally, use data <- read.table("MeanSD_Tidy_Data.txt") command in R to read the file. 
  When performing the dim() function on MeanSD, you should find 180 rows and 68 columns
