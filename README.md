@@ -1,6 +1,6 @@
 This file describes how run_analysis.R script works.
 
-1. First,download and unzip the data file called "UCU HAR Dataset.zip"
+1. First,download and unzip the data file called "UCI HAR Dataset.zip"
 
 2. Make sure your working directory has been set correctly. Also, the unzipped file has to be in
 the working directory for the code to work. You can change the working directory by changing 
