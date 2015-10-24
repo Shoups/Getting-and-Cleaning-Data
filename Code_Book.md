@@ -2,7 +2,7 @@ This file describes what the run_analysis.R script does.
 
 1.First set your working directory
 2.Checks whether the folder "UCI HAR Dataset" exists, if the folder 
-  does not exist a file will be downloaded under the name "UCI HAR Dataset.zip"
+does not exist a file will be downloaded under the name "UCI HAR Dataset.zip"
 3.Then following txt files will be loaded into R:
 
 x_test
@@ -17,15 +17,15 @@ activity_labels
 4. Check the dimensions of the files loaded onto R
 5. Binding the appropriate datasets together.
 6. Labelling the datasets' headers. Activity_lables used to label ActivityID which
-   is the combination of y_test and y_train. Features dataset used to label the fields for combination
-   of x_test and X_train.
+is the combination of y_test and y_train. Features dataset used to label the fields for combination
+of x_test and X_train.
 7. Extract only the data that is associated with the calculation of mean and standard deviation of
-   the variables.
+the variables.
 8. Binding all the various data set together to form on large dataset called "Alldata". A txt
-   will also be created called "merged_Alldata.txt"
+will also be created called "merged_Alldata.txt"
 9. Creates an independent tidy data set with the average of each variable for each activity 
-   and each subject. Create a calcualted tidy dataset, and a txt file made called 
-   "MeanSD_Tidy_Data.txt"
+and each subject. Create a calcualted tidy dataset, and a txt file made called 
+"MeanSD_Tidy_Data.txt"
 
 ---------------------------------------------------------------------------------------------------------------------
 
